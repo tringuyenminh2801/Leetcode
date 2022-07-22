@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Approach: Brute Force
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {

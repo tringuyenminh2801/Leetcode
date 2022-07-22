@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// Approach: We know that right sum = total sum - left sum - nums[i]
+// so we can check the sum iteratively
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
